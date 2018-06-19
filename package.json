@@ -1,7 +1,7 @@
 {
   "name": "vue-frontend",
-  "version": "1.0.0",
-  "description": "My finest Nuxt.js project",
+  "version": "1.0.1",
+  "description": "Vue frontend from Nuxt.js",
   "author": "Travis Highley",
   "private": true,
   "scripts": {
