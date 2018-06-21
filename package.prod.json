@@ -1,0 +1,15 @@
+{
+  "name": "vue-backend",
+  "version": "0.1.0",
+  "description": "Backend build to consume dist from vue-frontend",
+  "main": "index.js",
+  "author": "Travis Highley <betterthanapigeon@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
