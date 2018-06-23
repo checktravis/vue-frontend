@@ -1,22 +1,41 @@
 /**
  * Fonts
  */
- $font_path: '/src/assets/fonts/';
+ $font_path: '~@/assets/fonts/';
+ $fa_font_path: '~@/assets/fonts/fontawesome/';
 
 @font-face {
   font-family: 'Roboto';
-  src: url('/src/assets/fonts/Roboto-Regular.ttf') format('truetype');
+  src: url($font_path + 'roboto/Roboto-Regular.ttf') format('truetype');
   font-weight: regular;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('/src/assets/fonts/Roboto-Bold.ttf') format('truetype');
+  src: url($font_path + 'roboto/Roboto-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('/src/assets/fonts/Roboto-Light.ttf') format('truetype');
+  src: url($font_path + 'roboto/Roboto-Light.ttf') format('truetype');
   font-weight: light;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url($fa_font_path + 'fa-solid-900.eot');
+  src: url($fa_font_path + 'fa-solid-900.eot?#iefix') format('embedded-opentype'),
+  url($fa_font_path + 'fa-solid-900.woff2') format('woff2'),
+  url($fa_font_path + 'fa-solid-900.woff') format('woff'),
+  url($fa_font_path + 'fa-solid-900.ttf') format('truetype'),
+  url($fa_font_path + 'fa-solid-900.svg#fontawesome') format('svg');
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
 }
