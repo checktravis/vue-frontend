@@ -1,0 +1,23 @@
+// @import './vars/index.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+  box-sizing: border-box;
+}
+
+html { 
+  height: 100%;
+  overflow-y: auto;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
