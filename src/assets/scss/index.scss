@@ -1,82 +1,12 @@
+// https://github.com/JohnAlbin/normalize-scss
+@import "./vendor/normalize-scss/normalize";
+@include normalize();
+
+// 
 @import './vars/index.scss';
+
 @import './mixins/index.scss';
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+@import './config';
 
-* {
-  box-sizing: border-box;
-}
-
-html { 
-  height: 100%;
-  overflow-y: auto;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-  font-family: "Roboto", Helvetica, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  color: inherit;
-  text-rendering: optimizeLegibility;
-}
-
-body {
-  // font-family: 'Roboto', sans-serif;
-  // -webkit-font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
-  min-height: 100%;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background: #fefefe;
-  font-family: "Roboto", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #0a0a0a;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-h1 {
-  font-size: 3rem;
-}
-h2 {
-  font-size: 2.5rem;
-}
-h3 {
-  font-size: 1.9375rem;
-}
-h4 {
-  font-size: 1.5625rem;
-}
-h5 {
-  font-size: 1.25rem;
-}
-h6 {
-  font-size: 1rem;
-}
-
-
-a {
-  line-height: inherit;
-  color: #1779ba;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:hover, a:focus {
-  color: #1468a0;
-}
-
-a img {
-  border: 0;
-}
-
-@import './tosort';
+@import './typography/index.scss';
